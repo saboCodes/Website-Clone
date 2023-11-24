@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/Clone/img/bg3.png);
+    /* background-repeat:no-repeat; */
+    background-size:cover;
+    background-attachment: fixed;
+}
+.link_{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+
+}
+li, a, button{
+
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    height: 4rem;
+    padding-top: 3.5rem ;
+    padding-bottom: 2rem;
+}
+hr{
+    border-color: #ad5858;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    height: 4rem;
+}
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+.nav__links li a{ 
+    transition:all 0.3s ease 0s;
+    color: black;
+    font-weight: 200;
+}
+
+.nav__links li a:hover{ 
+    color: #e0a1a1;
+}
+.button{
+    padding: 9px 25px;
+    background-color:rgb(16, 16, 16);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+    color: rgb(244, 232, 232);
+}
+.button:hover{
+    background-color: #2c2424;
+    color: white;
+}
+
+.pics{
+    height: 500px;
+    width: 72rem;
+    /* padding-left: 20% ; */
+}
+.s1{
+    float: left;
+    height: 40rem;
+    /* position: relative; */
+    /* background-color: #c18c8c; */
+    /* background-image: url(/Clone/img/bg1.png); */
+    margin-bottom: rem;
+}
+
+.flex2{
+    height: 40rem;
+    justify-content: center;
+    padding-left: 20rem ;
+    /* background-color: #c18c8c;   */
+    /* border-top-left-radius: 55rem;
+    border-top-right-radius: 55rem;
+    border-bottom-right-radius: 55rem; */
+
+}
+
+#img1{
+    margin-left: 7.5rem;
+    height: 38rem;
+    width: 30rem;
+}
+
+
+section{
+    /* background-color: #ca4242; */
+    /* color: antiquewhite; */
+    height: 40rem;
+    width:55rem;
+    /* margin: 150px auto; */
+    text-align: left;
+
+    padding: 100px 150px;
+    font-weight: 650;
+    float: left;
+}
+#explore{
+    background-color: #2b2525;
+    padding: 12px;
+    width: 10rem;
+    border: none;
+}
+p{
+    font-size: 50px;
+    padding-bottom: 3rem;
+}
+.s2{
+    margin-bottom: 5rem;
+    /* margin-left: 13%; */
+    padding-left: 50%;
+    height: 40rem;
+    /* background-color: #ecc1c1; */
+    /* background-image: url(/Clone/img/bg5.jpg); */
+    /* background-attachment: fixed; */
+    text-align: center;
+    padding: 5rem;
+}
+footer{
+    font-family: 'Segoe UI'f;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(218, 199, 213);
+    font-weight: 50;
+    background:rgb(40, 40, 50);
+    opacity: 50%;
+}
+
+/* SERVICES */
+
+#service{
+    padding: 0 5rem;
+    font-size: 4rem;
+    width: fit-content;
+}
+.card__{
+    /* background-color: #a48e8e; */
+    /* border-right-color:#ad5858; */
+    border: 2px solid #2b2525;
+    outline: 10px;
+    text-align: left;
+    /* font-size: large; */
+}
+.card__txt{
+    font-size: 2rem;
+}
+
+.service_h1{
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+/* CONTACT  */
+form{
+    float: left;
+    margin: 0;
+    /* border: 2px solid #c8c2c2; */
+    border-radius: 2.5rem;
+    padding: 4rem 2rem;
+    background-color: #f4f2f2;
+    /* background: linear-gradient(white, rgb(227, 186, 227)); */
+}
+
+input{
+    padding: 10px;
+    margin: 10;
+    border-left: none ;
+    border-right: none ;
+    border-top: none ;
+    border-bottom-color: #c8c2c2;
+    background: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#btn{
+    border-radius: 2rem;
+    height: 3.5rem;
+    width: 16rem;
+    padding: 1rem;
+    /* float: left; */
+    margin: 30 auto;
+    background: black;
+    color:white;
+    border: 1px solid black;
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+#cimg{
+    /* border-top-right-radius: 50rem; */
+    height: 30rem;
+}
+#contact_h1{
+    padding: 10rem;
+    font-size: 4rem;
+    font-weight: 650;
+}
